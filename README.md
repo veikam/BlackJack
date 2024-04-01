@@ -1,4 +1,4 @@
-Black Jack -korttipeli
+Black Jack -korttipeli konsolissa
 
 
 Pelissä edetään eurooppalaisen kasinon säännöillä:
