@@ -1,31 +1,35 @@
-Black Jack -korttipeli konsolissa
+Black Jack in console
 
 
-Pelissä edetään eurooppalaisen kasinon säännöillä:
+Game is based on european casino rules:
 
-Korttien yhteis-summa ei saa ylittää lukua 21, muuten haviää kierroksen ("Bust").
+Combined card value over 21 results in "Bust".
 
-1. Jakajalle jaetaan yksi kortti kuvapuoli ylöspäin
+Example: Jack + Ace = BlackJack. Immediate win and the round is over.
 
-2. Pelaajalle jaetaan kaksi korttia.
+1. Dealer is dealed one card that everybody sees.
 
-3. Vaihtoehdot numero näppäimillä (1 & 2):
+2. Player is dealed two cards.
+
+3. Player has option between two choices, which are chosen with number keys (1 & 2):
 	
-	-"Hit" uusi kortti.
+	-"Hit" new card.
 	
-	-"Stand" lopeta vuoro.
+	-"Stand" end turn.
 
-4. Jakaja nostaa kortteja kunnes on saavuttanut korttien kokonais-summan 17 tai enemmän.
+4. Dealer takes new cards until combined card value is 17 or over.
 
-Jos pelaaja ja jakaja ovat pelissä mukana kierroksen päätyttyä, se jolla on suurempi korttien yhteis-summa, voittaa.
+If the player and the dealer haven't bust during the round. The one with the greater sum of hand wins.
 
-Peliä pelataan kolme kierrosta.
+Tie results in no points.
 
-Kortit:
-2-10 		-	Numeroarvolla
-Kuvakortit	-	10
-Ässä		-	1 tai 11 (Toteutettu automaattisesti siten, että vertaillaan sopiiko 11 lisätä korttien yhteis-summaan ilman luvun 21 ylittämistä)
+Game has three rounds.
 
-Tekijä:
+Card explanations:
+2-10 			-	Number value
+Jack, Queen & King	-	10
+Ace			-	1 or 11 (Automatic check whether number 11 fit in hand without bust)
+
+Author:
 Veikka Kamppi
 
